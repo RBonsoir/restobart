@@ -2,3 +2,12 @@
  * SASS code SPECIFIC TO your home page
  * (margin/padding adjustments, background image, etc..)
  * ------------------------------------- */
+
+#bg-home{
+  background-image: linear-gradient(rgba(57, 62, 78, 0.8), rgba(57, 62, 78, 0.8)), image-url('bangkok.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
