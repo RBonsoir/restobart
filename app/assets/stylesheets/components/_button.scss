@@ -1,7 +1,23 @@
-/* -------------------------------------
- * Your CSS code for buttons
-  * ------------------------------------- */
+.search_button {
+  background: red;
+  color: white;
+  border-radius: 0px 5px 5px 0px;
+  padding-top: 0.62em;
+  padding-bottom: 0.62em;
+  border-color: lightgray;
+  &:hover {
+    background: gray;
+    color: white;
+    cursor: pointer;
+  }
+}
 
+@media screen and (max-width: 768px)
+{
+  .search_button {
+    border-radius: 3px 3px 3px 3px;
+  }
+}
 
 /* -------------------------------------
  * [TIPS] Look for cool button design on CodePen

@@ -21,4 +21,12 @@ class Restaurant < ActiveRecord::Base
   validates :name, presence: true
   validates :address, presence: true
 
+  has_attached_file :picture,
+    styles: {
+      large: "1400x933>",
+      medium: "350x233>",
+      thumbnail: "70x40>"},
+      default_url: "default_:style.jpg"
+  validates_attachment_content_type :picture, content_type: /\Aimage\/.*\z/
+
 end

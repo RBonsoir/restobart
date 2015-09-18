@@ -13,3 +13,20 @@ body {
   color: white;
 }
 
+#search-home {
+  color: darkgray;
+  align: center;
+}
+
+#user_input_autocomplete_address {
+  border-radius: 5px 0px 0px 5px;
+  padding-top: 1.3em;
+  padding-bottom: 1.3em;
+}
+
+@media screen and (max-width: 768px)
+{
+  #user_input_autocomplete_address {
+    border-radius: 3px 3px 3px 3px;
+  }
+}
